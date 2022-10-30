@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 42px;
+    text-align: center; 
+    font-family: 'Elephant';
+}
+
+.title {
+    font-size: 72px;
+    font-weight: bold;
+    color: black;
+    margin-top: 0px;
+}
+
+.image{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.box{
+    background-color: rgb(41, 151, 255);
+    margin-bottom: 50px;
+}
+
+.box5{
+    background-color: rgb(255, 85, 0);
+    margin-bottom: 50px;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+    
+.boite1 {
+    width: 100%;
+    height:600px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    
+}
+
+.boite2 {
+    width:100%;
+    height:auto;
+    border: 2px solid rgb(0, 0, 0)
+    margin-bottom: 30px;
+}
+
+.boite3 {
+    width:10%;
+    height:300px;
+    border: 2px solid rgb(0, 0, 0)
+}
+
+.boite2 .image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.Menu {
+    display: flexbox;
+    text-align: center;
+    
+}
+
+#entete {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    align-content: center;
+    
+}
+.Haut .image {
+    width: 90%;
+    height: 100%;
+    object-fit: initial;
+    border-top: 5 px solid black;
+}
+
+.Haut {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.Prop1 {
+    width: 50%;
+    height:400px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+
+}
+
+.Prop2 {
+    width: 100%;
+    height:200px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+}
+.ImgProp {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    margin-bottom: 30px;
+}
+
+#CD {
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+#lmcv {
+    margin-bottom: 30px;
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    text-align: center; 
+    font-family: 'Elephant';
+}
+
+.box2{
+    background-color: rgb(255, 75, 75);
+    margin-bottom: 50px;
+
+}
+
+.boite1 .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+}
+
+.titre {
+    margin-bottom: 20px;
+}
+
+#CDEB {
+    display: flex;
+    gap: 20px;
+}
+
+.Design1 {
+    width: 100%;
+    height:600px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Design1 .image {
+    width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+
+.Design2 {
+    width: 100%;
+    height:200px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.comparatif {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    text-align: center;
+    gap: 200px;
+    align-items: center;
+}
+
+.comparatif .image {
+    width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+}
+
+.Mod1 {
+    width: 100%;
+    height:600px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Color1 {
+    width: 100%;
+    height:900px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Color1 .image {
+    width: 100%;
+        height: 100%;
+        object-fit: fill;
+}
+
+.Color2 {
+    width: 100%;
+    height:200px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.footer {
+
+    background-color: white ; 
+    height:50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    }
+ 
+ .box3 {
+    background-color: rgb(36, 138, 88);
+    margin-bottom: 50px;
+    }
+
+    .box4{
+        background-color: rgb(192, 250, 2);
+        margin-bottom: 50px;
+    }
